@@ -1,0 +1,40 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 25px;
+  
+}
+
+.list-brend li {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; 
+  padding-bottom: 50px;
+}
+
+.list-adres, .list-social {
+  padding-top: 30px;
+}
+
+.list-adres li {
+  position: relative;
+  padding-left: 30px;
+}
+
+.list-social > .social {
+  flex-wrap: wrap;
+}
+
+.list-social > .subscribe {
+  justify-content: space-between;
+}

@@ -1,0 +1,54 @@
+.button {
+	display: inline-block;
+	padding: 7px 14px;
+  text-decoration: none;
+  border: 1px solid #00e0d0;
+  cursor: pointer;
+}
+
+.button-link {
+  text-transform: uppercase;
+  font-family: "Hammersmith One";
+  color: #00e0d0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-link:hover {
+  background: #00e0d0;
+  color: #ffffff;
+  border-color: #ffffff;
+  text-decoration: none;
+}
+
+.button-form {
+	display: inline-block;
+	text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #00e0d0;
+  background-color: #ffffff;
+  padding: 10px 30px;
+}
+
+.button-subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  height: 45px;
+  width: 70px;
+  background-image: url(/images/backsub.png);
+  border: none;
+  padding: 0;
+}
+
+.button-works {
+  padding: 7px 26px;
+}

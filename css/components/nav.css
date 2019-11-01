@@ -1,0 +1,26 @@
+.nav .nav-item {
+  padding: 0 13px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.33px;
+  text-transform: uppercase;
+}
+
+.nav-item.is-active {
+  color: #00e0d0;
+  text-decoration: none;
+}
+
+.nav-works {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.nav-social:hover {
+  color: #00e0d0;
+  text-decoration: none;
+}
+.nav {
+  margin: 0 -13px;
+}
