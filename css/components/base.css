@@ -67,3 +67,73 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 54px;
 }
 
+.swiper-container {
+	width: 940px;
+	flex-grow: 1;
+}
+
+.swiper-slide {
+	display: flex;
+	align-items: center;
+}
+
+.swiper-pagination-bullet {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #ffffff;
+}
+
+.swiper-pagination-bullet-active {
+	width: 10px;
+	height: 10px;
+	background-color: #00e0d0;
+	border: 1px solid #ffffff;
+}
+
+
+.wrap {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.center .slick-center img {
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  color: #e67e22;
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.center .slick-center .section-subtitle {
+  display: block;
+}
+
+.center .slick-center .section-subtitle-position {
+  display: block;
+}
+
+.center .card-workers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slick-prev, .slick-next {
+  top: 70%;
+}
+
+.slick-next:before {
+  content: '>';
+}
+
+.slick-prev:before {
+  content: '<';
+}
+
+.center img {
+	padding: 10px;
+	margin-top: 50px;
+}
+

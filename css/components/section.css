@@ -250,3 +250,17 @@
   font-size: 22px;
   font-weight: 700;
 }
+
+.section-subtitle {
+  display: none;
+  position: absolute;
+	top: 0;
+	text-transform: uppercase;
+}
+
+.section-subtitle-position {
+  display: none;
+  position: absolute;
+	top: 20px;
+	text-transform: uppercase;
+}
