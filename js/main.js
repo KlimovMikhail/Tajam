@@ -9,6 +9,7 @@ $(document).ready(function(){
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
+    asNavFor: '.title',
     responsive: [
       {
         breakpoint: 768,
@@ -30,4 +31,14 @@ $(document).ready(function(){
       }
     ]
   });
+});
+
+$('.title').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true,
+  asNavFor: '.center',
+  arrows: false
 });
