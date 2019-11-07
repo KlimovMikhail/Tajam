@@ -90,19 +90,12 @@ h1, h2, h3, h4, h5, h6 {
 	border: 1px solid #ffffff;
 }
 
-
 .wrap {
   width: 300px;
   margin: 0 auto;
 }
 
 .center .slick-center img {
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  color: #e67e22;
-  opacity: 1;
   transform: scale(1.5);
 }
 
